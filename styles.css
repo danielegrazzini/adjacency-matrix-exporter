@@ -1,0 +1,13 @@
+.app-csv-separator-row {
+  margin-bottom: 20px;
+}
+
+.app-csv-separator-value {
+  display: inline-block;
+  color: orange;
+  margin-right: 10px;
+}
+
+.app-actions-row>*:not(:last-child) {
+  margin-right: 10px;
+}
