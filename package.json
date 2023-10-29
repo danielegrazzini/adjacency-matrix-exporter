@@ -1,7 +1,7 @@
 {
   "name": "adjacency-matrix-exporter",
   "version": "1.0.0",
-  "description": "Create an interactive adjacency matrix of your vault",
+  "description": "Create a numerical adjacency matrix of your vault in two ways: Absolute and Normalized.",
   "main": "main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
