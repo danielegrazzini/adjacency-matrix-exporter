@@ -1,4 +1,4 @@
-## Adjacency Matrix Exporter
+# Adjacency Matrix Exporter
 
 This Plugin wants to build two types of numerical adjacency matrices that can be exported in CSV format for subsequent processing with other software.
 
@@ -11,7 +11,7 @@ You can think of it as a grid of all the **links** in your vault.
 Each row is a _node_ in your graph, and each cell is an _edge_.
 
 
-# Description of plugin
+## Description of plugin
 
 When the user clicks on the plugin icon he is faced with an interaction window with three possible actions: two buttons and a link.
 
@@ -22,17 +22,17 @@ the second button exports the adjacency matrix of the Vault in Normalized mode: 
 the link allows the user to change the separator of the CSV file according to their needs.
 
 
-# CSV file saving configuration
+## CSV file saving configuration
 
 CSV files are saved in the Vault folder by default. These files report the export mode, date and time the file was created.
 
 
-# Options
+## Options
 
 user can choose the default CSV separator and destination folder of the created CSV file.
 
 
-# Author
+## Author
 
 Daniele Grazzini is a student of the Management Engineering degree course at the UNINETTUNO faculty based in Rome: https://www.uninettunouniversity.net.
 
@@ -41,6 +41,6 @@ This work was carried out for the three-year thesis in Management Engineering fo
 The lecturer is Prof. Andrea Falegnami, Phd, Eng.
 
 
-# thanks
+## thanks
 
 I would like to thank SkepticMystic for his monumental work that served as the foundation for creating this plugin. I recommend everyone to visit his Github: https://github.com/SkepticMystic in particular I was inspired by this work: https://github.com/SkepticMystic/adjacency-matrix-maker
