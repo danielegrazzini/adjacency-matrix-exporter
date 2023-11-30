@@ -324,7 +324,7 @@ class ChangeSeparatorModal extends Modal {
     let content = this.contentEl;
     
     // customize the contents of the user box
-    content.innerHTML = `
+    content.innerText = `
       <p>
         Choose your favourite char to separate .csv data.<br>
         The default char is " ${this.defaultValue} ".<br>
