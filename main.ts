@@ -325,11 +325,11 @@ class ChangeSeparatorModal extends Modal {
     
     // customize the contents of the user box
     content.innerText = `
-      <p>
-        Choose your favourite char to separate .csv data.<br>
-        The default char is " ${this.defaultValue} ".<br>
+        Choose your favourite char to separate .csv data.
+        The default char is " ${this.defaultValue} ".
         If you want to change it, insert your char below and press OK.
-      </p>
+
+        
     `;
 
     // adds an input field
