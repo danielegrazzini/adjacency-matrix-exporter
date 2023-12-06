@@ -16,12 +16,9 @@ export default class AdjacencyMatrixExporter extends Plugin {
 
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
 
-    addIcon(
-      "matrix",
-      `<defs><style>.cls-1{fill:none;}</style></defs><title>CSV</title><path fill="#FFFFFF" points="28 9 26 22 24 9 22 9 24.516 23 27.484 23 30 9 28 9" d="M87.5 28.125L81.25 68.75L75 28.125L68.75 28.125L76.612 71.875L85.888 71.875L93.75 28.125L87.5 28.125Z"/><path fill="#FFFFFF" d="M56.25 71.875h-18.75v-6.25h18.75v-12.5h-12.5a6.256 6.256 0 0 1 -6.25 -6.25v-12.5a6.256 6.256 0 0 1 6.25 -6.25h18.75v6.25h-18.75v12.5h12.5a6.256 6.256 0 0 1 6.25 6.25v12.5a6.256 6.256 0 0 1 -6.25 6.25Z"/><path fill="#FFFFFF" d="M31.25 71.875H12.5a6.256 6.256 0 0 1 -6.25 -6.25V34.375a6.256 6.256 0 0 1 6.25 -6.25h18.75v6.25H12.5v31.25h18.75Z"/><path id="_Transparent_Rectangle_" data-name="&amp;lt;Transparent Rectangle&amp;gt;" class="cls-1" width="32" height="32" d="M0 0H100V100H0V0z"/>`
-    );
+    addIcon("custom-icon", '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96"><path d="M7.55197 13 8.39897 10.8852 9.24398 13H7.55197ZM16 12H17V14H16C15.4477 14 15 13.5523 15 13 15 12.4477 15.4477 12 16 12ZM21 3H3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H21C21.5523 21 22 20.5523 22 20V4C22 3.44772 21.5523 3 21 3ZM12.598 16H10.443L10.043 15H6.75297L6.35297 16H4.19897L5.39797 13.002 5.39897 13 7.39897 8H9.39897L12.598 16ZM17 8H19V16H16C14.3431 16 13 14.6569 13 13 13 11.3431 14.3431 10 16 10H17V8Z" fill="rgba(255,255,255,1)"></path></svg>');
 
-    this.addRibbonIcon("matrix", "AdjacencyMatrixExporter", this.openMainModal);
+    this.addRibbonIcon("custom-icon", "AdjacencyMatrixExporter", this.openMainModal);
 
     this.addCommand({
       id: "adjacency-matrix-exporter",
