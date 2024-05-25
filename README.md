@@ -53,3 +53,4 @@ I would like to thank SkepticMystic for his monumental work that served as the f
 4) I am also trying to modify the plugin icon to make it readable in both light and dark mode: from reports that I received which I then verified, there is no good evidence of the icon in light mode.
 
 Thanks to all those who will report bugs and/or improvements to be made in the future.
+mail: d.grazzini@students.uninettunouniversity.net
